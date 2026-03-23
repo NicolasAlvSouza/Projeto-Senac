@@ -2,15 +2,33 @@
 <html>
     <head>
         <title>Page Title</title>
+        <link rel="stylesheet" href="estilos/catalogo.css">
     </head>
-        <body style="background-color: goldenrod;">
+        <body>
+            <div class="barra">
+                <ul id="menu">
+                <li><a href="index.html" > Home</a></li>
+                <a> | </a>
+                <li><a href="cadastro.html"> Cadastro</a></li>
+                <a> | </a>
+                <li><a href="login.html"> Login</a></li>
+                <a> | </a>
+                <li><a href="usuarios.html"> Usuarios</a></li>
+                <a> | </a>
+                <li><a href="catalogo.html"> Catalogo</a></li>
+                </ul>
+            </div>
+            <div class="tabela">
             <table>
-                <tr>
-                    <th>Nome</th>
-                    <th>Telefone</th>
-                    <th>senha</th>
-                    <th>Ações</th>
-                </tr>
+                <thead>
+                    <tr>
+                     <th>Nome</th>
+                     <th>Telefone</th>
+                     <th>senha</th>
+                     <th>Ações</th>
+                     </tr>
+                </thead>
+                <tbody>
                 <tr>
                     <td>Nicolas Alves</td>
                     <td>27990321253</td>
@@ -40,12 +58,11 @@
                     <td>11 9999999999</td>
                     <td>maiordobrasil</td>
                     <td>Editar | Excluir</td>
-                </tr>
+                    </tr>
+                </tbody>
 
             </table>
+            </div>
             <hr>
-            <ul id="Back">
-                <li><a href="index.html" style="color: white;">Back</a></li>
-                </ul>
         </body>
     </html>
