@@ -13,9 +13,9 @@ header {
 }
 
 .home{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     margin-bottom: 20;
-    width: 1285px;
+    width: 4000px;
     margin-left: 10px;
     margin: 0px;
     padding-left: 20px;
@@ -26,12 +26,12 @@ header {
     list-style: none;
     display: inline-block;
     text-align: end;
-    margin-left: 0px;
-    margin-top: 12px;
+    margin-left: 2px;
+    margin-top: 20px;
 }
  
 a {
-    color: rgb(138, 138, 138, 0.884);
+    color: rgba(0, 0, 0, 0.884);
     padding: 5 10;
     border-radius:  3;
     text-decoration: none;
@@ -41,25 +41,29 @@ a {
 }
 
 a:hover {
-    color: rgb(255, 244, 93);
+    color: rgb(247, 211, 53);
 }
 
 
 body {
     background-color: rgb(245, 190, 38);
     font-family: "Titillium Web", sans-serif;
-    color: rgba(138, 138, 138, 0.884);
+    color: rgba(117, 117, 117, 0.884);
     margin: 0px;
 }
 
 .logo {
     padding-top: 4px;
-    background: black;
-    width: 80px;
-     background-color: black;
+    background: rgb(255, 255, 255);
+    width: 100px;
+    background-color: rgb(255, 255, 255);
     margin-bottom: 20;
     margin-left: 0px;
+}
 
+.logo #png{
+    margin-left: 5px;
+    width: 90px;
 }
 
 h1 {
